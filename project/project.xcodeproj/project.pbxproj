@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B5E5468212675B30072F9FB /* app.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E5465212675B30072F9FB /* app.m */; };
 		0B5E546B212676140072F9FB /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E546A212676140072F9FB /* Box.m */; };
-		0B5E546E212676290072F9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E546D212676290072F9FB /* main.m */; };
+		0BD3F12C2127A3E400466F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3F12B2127A3E400466F27 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +25,9 @@
 
 /* Begin PBXFileReference section */
 		0B5E5450212669C80072F9FB /* project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5E5464212675B30072F9FB /* app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = app.h; path = src/app.h; sourceTree = SOURCE_ROOT; };
-		0B5E5465212675B30072F9FB /* app.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = app.m; path = src/app.m; sourceTree = SOURCE_ROOT; };
 		0B5E5469212676140072F9FB /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Box.h; path = src/classes/Box.h; sourceTree = SOURCE_ROOT; };
 		0B5E546A212676140072F9FB /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Box.m; path = src/classes/Box.m; sourceTree = SOURCE_ROOT; };
-		0B5E546D212676290072F9FB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/mac/main.m; sourceTree = SOURCE_ROOT; };
+		0BD3F12B2127A3E400466F27 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +60,9 @@
 		0B5E5452212669C80072F9FB /* project */ = {
 			isa = PBXGroup;
 			children = (
-				0B5E546D212676290072F9FB /* main.m */,
+				0BD3F12B2127A3E400466F27 /* main.m */,
 				0B5E5469212676140072F9FB /* Box.h */,
 				0B5E546A212676140072F9FB /* Box.m */,
-				0B5E5464212675B30072F9FB /* app.h */,
-				0B5E5465212675B30072F9FB /* app.m */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -129,8 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5E5468212675B30072F9FB /* app.m in Sources */,
-				0B5E546E212676290072F9FB /* main.m in Sources */,
+				0BD3F12C2127A3E400466F27 /* main.m in Sources */,
 				0B5E546B212676140072F9FB /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
